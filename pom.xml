@@ -4,26 +4,29 @@
 	<groupId>spring-aop-demo</groupId>
 	<artifactId>spring-aop-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-		<springframework.version>3.2.3.RELEASE</springframework.version>
-	</properties>
-	<dependencyManagement>
+	<packaging>jar</packaging>
+  	<name>spring-aop-demo</name>
+	<url>http://maven.apache.org</url>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
-				<version>${springframework.version}</version>
+				<version>3.2.3.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-beans</artifactId>
-				<version>${springframework.version}</version>
+				<version>3.2.3.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
-				<version>${springframework.version}</version>
+				<version>3.2.3.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aspects</artifactId>
+				<version>3.2.3.RELEASE</version>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
 </project>
